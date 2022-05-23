@@ -1,0 +1,137 @@
+.img-logo-home {
+  width: 100px;
+}
+
+.banner-heading {
+  font-size: 40px;
+  line-height: 1.4;
+}
+
+.banner-paragraph {
+  color: #fff;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.span--home,
+.heading-across {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+}
+
+.about-us-paragraph {
+  line-height: 1.7;
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-size: 16px;
+}
+
+.objectives-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 80px;
+  margin: 100px 80px;
+}
+
+.objectives-about-children:not(last-child) {
+  margin-right: 20px;
+}
+
+.icon-about {
+  width: 18%;
+  margin-bottom: 20px;
+}
+
+.company-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0;
+}
+
+.company-child:not(last-child) {
+  margin-right: 10px;
+}
+
+.contactus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contactus-container__child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactus-container__child img {
+  width: 20%;
+}
+
+@media screen and (max-width: 680px) {
+  .img-logo-home {
+    width: 70px;
+  }
+
+  .banner-heading {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+
+  .about-us-paragraph {
+    font-size: 14px;
+  }
+
+  .objectives-about {
+    display: block;
+    padding: 0 10px;
+    margin: 80px 30px;
+  }
+
+  .objectives-about-children:not(last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .company-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px 0;
+    place-items: center;
+  }
+
+  .company-child:not(last-child) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .contactus-container {
+    flex-direction: column;
+  }
+
+  .contactus-container__child {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .contactus-container__child img {
+    width: 10%;
+  }
+
+  .contactus-img {
+    width: 80%;
+  }
+
+  .contactimg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
